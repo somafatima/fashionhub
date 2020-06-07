@@ -1,0 +1,116 @@
+
+
+
+.nav-link:hover{
+color: red !important;
+font-size: 20px !important;
+}
+h1 {
+    font-size: 80px;
+    text-align: center;
+    color: black;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #e60000, 0 0 20px #e60000, 0 0 25px #e60000, 0 0 30px #e60000, 0 0 35px #e60000;
+    }
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60000, 0 0 40px #e60000, 0 0 50px #e60000, 0 0 60px #e60000, 0 0 70px #e60000;
+    }
+  }
+  .fa-shopping-cart,.fa-facebook,.fa-instagram,.fa-user-circle-o{
+      font-size: 25px !important;
+  }
+  body{
+    background-image: url(back.jpg);
+    font-family: 'Poppins',serif;
+  }
+  .m{
+margin-top: 20px;
+margin-bottom: 20px;
+padding: 20px 0 20px 0;
+/* border: 1px solid white; */
+
+  }
+   .m{
+      display: grid;
+      grid-gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  } 
+  
+  .z{
+    padding: 20px 0 20px 0;
+  }
+  .card{
+    color: #e60000;
+  }
+  .card:hover{
+    
+      transition: all 0.2s ease-out;
+      box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+      top: -4px;
+      border: 1px solid #cccccc;
+      background-color: white;
+    
+  }
+ .q{
+   width: 200px;
+   height: 280px;
+   margin: 25px 20px;
+   text-align: center;
+ }
+
+ .abcd{
+   justify-content: center;
+ }
+  @media only screen and (max-width: 768px) {
+    .m{
+    padding-left: 16% !important;
+    }
+} 
+
+.scroll {
+  background: rgba(0, 0, 0, 0.1);
+  bottom: 15px;
+  display: none;
+  height: 50px;
+  padding: 2px;
+  position: fixed;
+  right: 15px;
+  text-align: center;
+  text-decoration: none;
+  width: 50px;
+  z-index: 99999;
+}
+.scroll i {
+  color: #fff;
+  font-size: 42px;
+}
+.scroll:hover{
+  background-color: #666666;
+}
+ul#fist li{
+  float: left;
+  list-style: none;
+  padding: 4px 10px;
+  margin: 5px 5px 5px 5px;
+  color: white;
+  background-color:#af2f2f;
+  border-radius: 50%;
+  cursor: pointer;
+}
+ul{
+  padding: 0%;
+}
+
+.card-img-top{
+
+  transition: transform .2s; /* Animation */
+
+  margin: 0 auto;
+}
+ .card-img-top:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}

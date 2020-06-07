@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+   <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Bitter">
+  <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Poppins">
+  <style>
+body{
+    background-image: url(back.jpg);
+    font-family: 'Poppins',serif;
+  }
+  h1 {
+    font-size: 80px;
+    text-align: center;
+    color: black;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #e60000, 0 0 20px #e60000, 0 0 25px #e60000, 0 0 30px #e60000, 0 0 35px #e60000;
+    }
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60000, 0 0 40px #e60000, 0 0 50px #e60000, 0 0 60px #e60000, 0 0 70px #e60000;
+    }
+  }
+  .fa-shopping-cart,.fa-facebook,.fa-instagram,.fa-user-circle-o{
+      font-size: 25px !important;
+  }
+
+  .m{
+      display: grid;
+      grid-gap: 20px;
+      /* grid-template-columns: repeat(auto-fill,minmax(30%,1fr)); */
+      grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  } 
+  .card{
+    color: #e60000;
+  }
+  .card:hover{
+    
+      transition: all 0.2s ease-out;
+      box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+      top: -4px;
+      border: 1px solid #cccccc;
+      background-color: white;
+    
+  }
+
+
+  .nav-link:hover{
+color: red !important;
+font-size: 20px !important;
+}
+.scroll {
+  background: rgba(0, 0, 0, 0.1);
+  bottom: 15px;
+  display: none;
+  height: 50px;
+  padding: 2px;
+  position: fixed;
+  right: 15px;
+  text-align: center;
+  text-decoration: none;
+  width: 50px;
+  z-index: 99999;
+}
+.scroll i {
+  color: #fff;
+  font-size: 42px;
+}
+.scroll:hover{
+  background-color: #666666;
+}
+ul#fist li{
+  float: left;
+  list-style: none;
+  padding: 4px 10px;
+  margin: 5px 5px 5px 5px;
+  color: white;
+  background-color:#af2f2f;
+  border-radius: 50%;
+  cursor: pointer;
+}
+ul{
+  padding: 0%;
+}
+
+.card-img-top{
+
+transition: transform .2s; /* Animation */
+
+margin: 0 auto;
+}
+.card-img-top:hover {
+transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+
+
+
+  </style>
+</head>
+<body>
+  <form action="index.html" action="index6.html" action="index5.html" action="index7.html" style="position: sticky;top: 0px;z-index: 100;">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-color: black !important;position: sticky;top: 0px;z-index: 100;">
+    <a class="navbar-brand" href="#"><img src="logo.png" height="50px"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index7.html" style="color:white">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+            Collection
+          </a>
+          <form action="index2.html" action="index3.html" action="index4.html">
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="index3.html">MENS</a>
+            <a class="dropdown-item" href="index2.html">WOMENS</a>
+            <a class="dropdown-item" href="index4.html">KIDS</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="index5.html">EXCITING OFFERS</a>
+          </div>
+          </form>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="index6.html" style="color: white;">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="https://www.facebook.com/Fashion-Hub-756571717741554" style="color: white;"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="https://www.instagram.com/fashion__hub.pk/" style="color: white;"><i class="fa fa-instagram"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#" style="color: white;"><i class="fa fa-user-circle-o"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#" style="color: white;"><i class="fa fa-shopping-cart"></i></a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search <i class="fa fa-search"></i></button>
+      </form>
+     
+    </div>
+  </nav>
+  </form>
+    <div class="container-fluid" id="women">
+    <h1 style="font-family: 'Bitter',serif;font-size: 50px;padding: 20px 0 20px 0;">WOMENS COLLECTION</h1>
+     <h2 style="text-align: center;"> <span style="color: rgba(153, 63, 63, 0.507);">______ </span><img src="logo.png" height="42px"><span style="color: rgba(153, 63, 63, 0.507);"> ______ </span></h2>
+
+
+     <div class="container m" style="padding-top:20px;">
+
+        <div class="card" style="width: 18rem;margin: 10px 10px 10px 10px;text-align: center;height: 425px;">
+          <img class="card-img-top" src="kurti1.webp" height="285" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title"style="color: black !important;text-align: center;">LONG KURTI WITH PENTS</h5>
+            <p class="card-text"style="font-weight: 600; font-size: 30px;">RS: 2,500/-</p>
+            <a href="#" class="btn btn-danger">GO TO CART <i class="fa fa-shopping-cart"></i></a>
+          
+          </div>
+        </div>
+        
+          <div class="card" style="width: 18rem;margin: 10px 10px 10px 10px;text-align: center;height: 425px;">
+            <img class="card-img-top" src="kurti2.webp" height="285" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title" style="color: black !important;text-align: center;">FULL THREE PIECE SUIT</h5>
+              <p class="card-text" style="font-weight: 600; font-size: 30px;">RS: 3,500/-</p>
+              <a href="#" class="btn btn-danger">GO TO CART <i class="fa fa-shopping-cart"></i></a>
+            
+          </div>
+          </div>
+          
+            <div class="card" style="width: 18rem;margin: 10px 10px 10px 10px;text-align: center;height: 425px;">
+              <img class="card-img-top" src="kurti3.webp" height="285" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title" style="color: black !important;text-align: center;">KURTI WITH TROUSER</h5>
+                <p class="card-text"style="font-weight: 600; font-size: 30px;">RS: 3,000/- </p>
+                <a href="#" class="btn btn-danger">GO TO CART <i class="fa fa-shopping-cart"></i></a>
+              
+            </div>
+            </div>
+      </div>
+
+      <div class="container m" style="margin-top: 30px;">
+
+        <div class="card" style="width: 18rem;margin: 10px 10px 10px 10px;text-align: center;height: 425px;">
+          <img class="card-img-top" src="kurti4.webp" height="285" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title"style="color: black !important;text-align: center;">MAROON KURTI FLAPPER</h5>
+            <p class="card-text" style="font-weight: 600; font-size: 30px;">RS:3,500/- </p>
+            <a href="#" class="btn btn-danger">GO TO CART <i class="fa fa-shopping-cart"></i></a>
+          
+          </div>
+        </div>
+        
+          <div class="card" style="width: 18rem;margin: 10px 10px 10px 10px;text-align: center;height: 425px;">
+            <img class="card-img-top" src="kurti5.webp" height="285" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"style="color: black !important;text-align: center;">LONG FROCK WITH PENT</h5>
+              <p class="card-text" style="font-weight: 600; font-size: 30px;">RS: 3,500/- </p>
+              <a href="#" class="btn btn-danger">GO TO CART <i class="fa fa-shopping-cart"></i></a>
+            
+          </div>
+          </div>
+          
+            <div class="card" style="width: 18rem;margin: 10px 10px 10px 10px;text-align: center;height: 425px;">
+              <img class="card-img-top" src="kurti6.webp" height="285" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title" style="color: black !important;text-align: center;">KURTI WITH TULIP</h5>
+                <p class="card-text"style="font-weight: 600; font-size: 30px;">RS: 4000/-</p>
+                <a href="#" class="btn btn-danger">GO TO CART <i class="fa fa-shopping-cart"></i></a>
+              
+            </div>
+            </div>
+      </div>
+      <div class="container m" style="margin-top: 30px;">
+
+        <div class="card" style="width: 18rem;margin: 10px 10px 10px 10px;text-align: center;height: 425px;">
+          <img class="card-img-top" src="kurti7.webp" height="285" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title"style="color: black !important;text-align: center;">KURTI WITH FLAPPER</h5>
+            <p class="card-text" style="font-weight: 600; font-size: 30px;">RS:3,500/- </p>
+            <a href="#" class="btn btn-danger">GO TO CART <i class="fa fa-shopping-cart"></i></a>
+          
+          </div>
+        </div>
+        
+          <div class="card" style="width: 18rem;margin: 10px 10px 10px 10px;text-align: center;height: 425px;">
+            <img class="card-img-top" src="kurti8.webp" height="285" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"style="color: black !important;text-align: center;">BLACK LONG KURTI</h5>
+              <p class="card-text" style="font-weight: 600; font-size: 30px;">RS: 1,500/- </p>
+              <a href="#" class="btn btn-danger">GO TO CART <i class="fa fa-shopping-cart"></i></a>
+            
+          </div>
+          </div>
+          
+            <div class="card" style="width: 18rem;margin: 10px 10px 10px 10px;text-align: center;height: 425px;">
+              <img class="card-img-top" src="kurti9.webp" height="285" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title" style="color: black !important;text-align: center;">KURTI WITH FLAPPER</h5>
+                <p class="card-text"style="font-weight: 600; font-size: 30px;">RS: 4000/-</p>
+                <a href="#" class="btn btn-danger">GO TO CART <i class="fa fa-shopping-cart"></i></a>
+              
+            </div>
+            </div>
+      </div>
+
+      <div class="container m" style="margin-top: 30px;">
+
+        <div class="card" style="width: 18rem;margin: 10px 10px 10px 10px;text-align: center;height: 425px;">
+          <img class="card-img-top" src="kurti10.webp" height="285" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title"style="color: black !important;text-align: center;">EMBORIODED BLACK SUIT</h5>
+            <p class="card-text" style="font-weight: 600; font-size: 30px;">RS:5,500/- </p>
+            <a href="#" class="btn btn-danger">GO TO CART <i class="fa fa-shopping-cart"></i></a>
+          
+          </div>
+        </div>
+        
+          <div class="card" style="width: 18rem;margin: 10px 10px 10px 10px;text-align: center;height: 425px;">
+            <img class="card-img-top" src="kurti11.webp" height="285" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"style="color: black !important;text-align: center;">YELLOW KURTI TIGHTS</h5>
+              <p class="card-text" style="font-weight: 600; font-size: 30px;">RS: 2,500/- </p>
+              <a href="#" class="btn btn-danger">GO TO CART <i class="fa fa-shopping-cart"></i></a>
+            
+          </div>
+          </div>
+          
+            <div class="card" style="width: 18rem;margin: 10px 10px 10px 10px;text-align: center;height: 425px;">
+              <img class="card-img-top" src="kurti12.webp" height="285" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title" style="color: black !important;text-align: center;">LONG KURTI WITH FLAPPER</h5>
+                <p class="card-text"style="font-weight: 600; font-size: 30px;">RS: 4000/-</p>
+                <a href="#" class="btn btn-danger">GO TO CART <i class="fa fa-shopping-cart"></i></a>
+              
+            </div>
+            </div>
+      </div>
+      <div class="container m" style="margin-top: 30px;">
+
+        <div class="card" style="width: 18rem;margin: 10px 10px 10px 10px;text-align: center;height: 425px;">
+          <img class="card-img-top" src="kurti13.webp" height="285" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title"style="color: black !important;text-align: center;">BABY PINK SUIT</h5>
+            <p class="card-text" style="font-weight: 600; font-size: 30px;">RS:3,500/- </p>
+            <a href="#" class="btn btn-danger">GO TO CART <i class="fa fa-shopping-cart"></i></a>
+          
+          </div>
+        </div>
+        
+          <div class="card" style="width: 18rem;margin: 10px 10px 10px 10px;text-align: center;height: 425px;">
+            <img class="card-img-top" src="kurti14.webp" height="285" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"style="color: black !important;text-align: center;"> KURTI WITH TROUSER</h5>
+              <p class="card-text" style="font-weight: 600; font-size: 30px;">RS: 3,500/- </p>
+              <a href="#" class="btn btn-danger">GO TO CART <i class="fa fa-shopping-cart"></i></a>
+            
+          </div>
+          </div>
+          
+            <div class="card" style="width: 18rem;margin: 10px 10px 10px 10px;text-align: center;height: 425px;">
+              <img class="card-img-top" src="kurti15.webp" height="285" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title" style="color: black !important;text-align: center;">KURTI WITH PENT</h5>
+                <p class="card-text"style="font-weight: 600; font-size: 30px;">RS: 4000/-</p>
+                <a href="#" class="btn btn-danger">GO TO CART <i class="fa fa-shopping-cart"></i></a>
+              
+            </div>
+            </div>
+      </div>
+      <div class="container m" style="margin-top: 30px;">
+
+        <div class="card" style="width: 18rem;margin: 10px 10px 10px 10px;text-align: center;height: 425px;">
+          <img class="card-img-top" src="kurti16.webp" height="285" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title"style="color: black !important;text-align: center;">LONG KURTI TROUSER</h5>
+            <p class="card-text" style="font-weight: 600; font-size: 30px;">RS:3,500/- </p>
+            <a href="#" class="btn btn-danger">GO TO CART <i class="fa fa-shopping-cart"></i></a>
+          
+          </div>
+        </div>
+        
+          <div class="card" style="width: 18rem;margin: 10px 10px 10px 10px;text-align: center;height: 425px;">
+            <img class="card-img-top" src="kurti17.webp" height="285" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"style="color: black !important;text-align: center;"> SHORT KURTI WITH PENT</h5>
+              <p class="card-text" style="font-weight: 600; font-size: 30px;">RS: 2,500/- </p>
+              <a href="#" class="btn btn-danger">GO TO CART <i class="fa fa-shopping-cart"></i></a>
+            
+          </div>
+          </div>
+          
+            <div class="card" style="width: 18rem;margin: 10px 10px 10px 10px;text-align: center;height: 425px;">
+              <img class="card-img-top" src="kurti18.jpg" height="285" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title" style="color: black !important;text-align: center;">FULL EMBORIODED SUIT</h5>
+                <p class="card-text"style="font-weight: 600; font-size: 30px;">RS: 4000/-</p>
+                <a href="#" class="btn btn-danger">GO TO CART <i class="fa fa-shopping-cart"></i></a>
+              
+            </div>
+            </div>
+      </div>
+      <div class="container m" style="margin-top: 30px; margin-bottom: 30px;">
+
+        <div class="card" style="width: 18rem;margin: 10px 10px 10px 10px;text-align: center;height: 425px;">
+          <img class="card-img-top" src="kurti19.webp" height="285" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title"style="color: black !important;text-align: center;">FROCK WITH FLAPPER</h5>
+            <p class="card-text" style="font-weight: 600; font-size: 30px;">RS:3,500/- </p>
+            <a href="#" class="btn btn-danger">GO TO CART <i class="fa fa-shopping-cart"></i></a>
+          
+          </div>
+        </div>
+        
+          <div class="card" style="width: 18rem;margin: 10px 10px 10px 10px;text-align: center;height: 425px;">
+            <img class="card-img-top" src="kurti20.jpg" height="285" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"style="color: black !important;text-align: center;"> SKY FROCK WITH FLAPPER</h5>
+              <p class="card-text" style="font-weight: 600; font-size: 30px;">RS: 3,500/- </p>
+              <a href="#" class="btn btn-danger">GO TO CART <i class="fa fa-shopping-cart"></i></a>
+            
+          </div>
+          </div>
+          
+            <div class="card" style="width: 18rem;margin: 10px 10px 10px 10px;text-align: center;height: 425px;">
+              <img class="card-img-top" src="kurti21.webp" height="285" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title" style="color: black !important;text-align: center;">KURTI WITH PENT</h5>
+                <p class="card-text"style="font-weight: 600; font-size: 30px;">RS: 3000/-</p>
+                <a href="#" class="btn btn-danger">GO TO CART <i class="fa fa-shopping-cart"></i></a>
+              
+            </div>
+            </div>
+      </div>
+
+
+
+</div>
+<footer>
+  <div class="container-fluid x" style="background-color: #080808; padding: 80px 0 80px 0";>
+    <div class="container w" >
+    <div class="row">
+  <div class="col-md-6 col-sm-6 t" style="color:#a5a5a6;margin-bottom: 20px;">
+    <span>Head Office,</span><br>
+    <span>shop # N4-5 allah wala market، Pakistan</span><br>
+    <span style="padding-top: 10px;"><i class="fa fa-phone" style="color:  red;"></i> TELEPHONE NO: 021-539335</span>
+    <br>
+    <span style="margin-left: 5px;"><i class="fa fa-globe" style="color:  red;"></i> CELL NO: 0335289336</span>
+    <br>
+    <span style="padding-top: 10px;"><i class="fa fa-phone" style="color:  red;"></i> WHATSAPP NO: 03333066788</span><br>
+   
+    <span style="padding-top: 10px;"><i class="fa fa-envelope" style="color: red;"></i> FashionHub200@gmail.com</span>
+    
+  </div>
+  
+  <div class="col-md-6 col-sm-6 t">
+    <h5 style="color: white;font-family: Merriweather,serif;font-size: 1em;font-weight: 600;">Connect With Us</h5>
+    
+    <ul id="fist">
+      <li><i class="fa fa-facebook"></i></li>
+      <li><i class="fa fa-twitter"></i></li>
+      <li><i class="fa fa-instagram"></i></li>
+      <li><i class="fa fa-youtube"></i></li>
+    </ul>
+  </div>
+    </div>
+    </div>
+  </div>
+  <div class="container-fluid o" style="background-color: black; height: 100%;width: 100%">
+  <div class="container z" style="padding: 10px;"><span style="color: white;font-size: 15px;margin-top: 20px;">Copyright © 2020 Fashion Hub </span></div>
+  </div>
+  <a class="scroll" href="#" style="display: inline;">
+    <i class="fa fa-angle-up"></i>
+  </a>
+</footer>
+</body>
+</html>
